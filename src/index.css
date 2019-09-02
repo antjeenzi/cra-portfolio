@@ -9,7 +9,7 @@
 }
 
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
@@ -28,39 +28,37 @@ body {
   background-repeat: no-repeat;
 }
 
-.blue {
-  color: #027BFF;
+.purple {
+  color: #844fff;
 }
 
 h1 {
   font-size: 40px;
   font-weight: 500;
-  color: #17191A;
+  color: #17191a;
 }
 
 h2 {
   font-size: 35px;
   font-weight: 500;
-  color: #17191A;
+  color: #17191a;
 }
 
 h5 {
   font-size: 20px;
   margin-top: 10px;
-  color: #17191A;
+  color: #17191a;
 }
 
 p {
-  color: #8F9EA5;
+  color: #8f9ea5;
   opacity: 0.8;
   font-weight: 300;
   margin-top: 10px;
   font-size: 20px;
 }
 
-
 /* ---------- NAV ---------- */
-
 
 .nav {
   display: flex;
@@ -68,7 +66,8 @@ p {
   height: 100px;
 }
 
-.contactMe, .navIcons {
+.contactMe,
+.navIcons {
   flex: 1;
 }
 
@@ -76,17 +75,29 @@ p {
   text-align: right;
 }
 
-.navIcons a, .contactMe a, .contactMe img {
+.navIcons a,
+.contactMe a,
+.contactMe img {
   display: inline-block;
   vertical-align: middle;
+}
+
+.contactMe img {
+  width: 20px;
+  height: 20px;
 }
 
 .navIcons a {
   margin-left: 40px;
 }
 
+.navIcons img {
+  width: 20px;
+  height: 20px;
+}
+
 .contactMe a {
-  color: #027BFF;
+  color: #ff3367;
   text-decoration: none;
 }
 
@@ -94,9 +105,7 @@ p {
   margin-right: 10px;
 }
 
-
 /* ---------- Landing ---------- */
-
 
 .landing {
   height: 100vh;
@@ -119,6 +128,14 @@ ul {
   margin-top: 4em;
 }
 
+.langingR img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ff3367;
+  border-width: 5px;
+  box-shadow: 60px 30px 0px 0px rgba(132, 79, 255, 1);
+}
+
 .scroll {
   position: absolute;
   bottom: 180px;
@@ -127,9 +144,7 @@ ul {
   margin: auto;
 }
 
-
 /* ---------- Skills ---------- */
-
 
 .skills {
   text-align: center;
@@ -145,9 +160,7 @@ ul {
   margin: 0 15px;
 }
 
-
 /* ---------- Work 01 ---------- */
-
 
 .work {
   width: 100%;
@@ -162,7 +175,7 @@ ul {
 
 .work > .workText > .underline {
   display: block;
-  background-color: #027BFF;
+  background-color: #ff3367;
   height: 3px;
   width: 61px;
   margin-top: 5px;
@@ -186,9 +199,7 @@ ul {
   margin-top: 20px;
 }
 
-
 /* ---------- Work 02 ---------- */
-
 
 .work2 {
   width: 100%;
@@ -205,7 +216,7 @@ ul {
 
 .work2 > .workText > .underline {
   display: block;
-  background-color: #027BFF;
+  background-color: #ff3367;
   height: 3px;
   width: 61px;
   margin-top: 5px;
@@ -230,18 +241,15 @@ ul {
   margin-top: 20px;
 }
 
-
 /* ---------- Work 01 and 02 ---------- */
 
-
-.work a, .work2 a {
+.work a,
+.work2 a {
   text-decoration: none;
-  color: #17191A
+  color: #17191a;
 }
 
-
 /* ---------- Work 01 and 02 ---------- */
-
 
 .footer {
   background-image: url(http://gdurl.com/QRJR);
@@ -253,7 +261,7 @@ ul {
 }
 
 .footer a {
-  color: #027BFF;
+  color: #ff3367;
   text-decoration: none;
 }
 
@@ -262,5 +270,5 @@ ul {
   height: 3px;
   width: 41px;
   margin: 5px auto 0 auto;
-  background-color: #027BFF
+  background-color: #ff3367;
 }

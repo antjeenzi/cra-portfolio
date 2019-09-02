@@ -8,19 +8,19 @@ function App() {
       <div class="nav">
         <div class="contactMe">
           <a href="mailto:antje.enzi@gmail.com?subject=Let's%20chat!&amp;body=Please%20reply%20with%20more%20info!">
-            <img src="http://gdurl.com/JeSA" alt="chat logo" />
+            <img src="chat logo.png" alt="chat logo" />
             Contact Me
           </a>
         </div>
         <div class="navIcons">
-          <a href="https://bit.ly/2tlevDW">
-            <img src="http://gdurl.com/xMXh" alt="youtube logo" />
+          <a href="https://www.linkedin.com/in/antje-enzi-3b318a15/ttps://bit.ly/2tlevDW">
+            <img src="003-linkedin.png" alt="linkedin logo" />
           </a>
-          <a href="#">
-            <img src="http://gdurl.com/MOBy" alt="behance logo" />
+          <a href="https://twitter.com/Anjilo16">
+            <img src="002-twitter.png" alt="twitter logo" />
           </a>
-          <a href="#">
-            <img src="http://gdurl.com/Un9R" alt="dribble logo" />
+          <a href="https://www.facebook.com/antje.lorenz.1291">
+            <img src="001-facebook.png" alt="facebook logo" />
           </a>
         </div>
       </div>
@@ -31,7 +31,7 @@ function App() {
             <p>
               Hello, my name is Antje Enzi. I am an
               <br /> aspiring Web Developer &amp;{' '}
-              <span class="blue">Product Designer</span>.
+              <span class="purple">Product Designer</span>.
             </p>
             <ul>
               <li>
@@ -47,8 +47,8 @@ function App() {
           </div>
           <div class="langingR">
             <img
-              src="http://gdurl.com/naXv"
-              alt="LaMonte Fields pic"
+              src="Antje_edited.jpg"
+              alt="picture of Antje Enzi"
               width="300px"
             />
           </div>
@@ -60,13 +60,12 @@ function App() {
         <h2>Skills</h2>
         <p>
           Over 48 hours of web development experience using
-          <br /> these programs.{' '}
+          <br /> these technologies.{' '}
         </p>
         <div class="programs">
-          <img src="http://gdurl.com/ziVh" alt="Xd icon" />
-          <img src="http://gdurl.com/V3u2" alt="Ps icon" />
-          <img src="http://gdurl.com/BMy6" alt="Ai icon" />
-          <img src="http://gdurl.com/cLC4" alt="Ae icon" />
+          <img src="html5_logo.png" alt="HTML icon" />
+          <img src="css3_logo.png" alt="CSS icon" />
+          <img src="JS_logo.png" alt="JavaScript icon" />
         </div>
       </div>
 
