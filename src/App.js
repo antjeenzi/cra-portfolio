@@ -1,39 +1,101 @@
 import React from 'react';
+import styled from 'styled-components';
 import logo from './logo.svg';
 import './App.css';
+
+const Nav = styled.div`
+  display: flex;
+  align-items: center;
+  height: 100px;
+`;
+
+const Landing = styled.div`
+  height: 100vh;
+  position: relative;
+`;
+
+const LandingWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+`;
+
+const ContactMeImg = styled.img`
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+`;
+
+const ContactMe = styled.div`
+  flex: 1;
+`;
+
+const ContactMeLink = styled.a`
+  color: #ff3367;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+`;
+
+const NavIcons = styled.div`
+  flex: 1;
+  text-align: right;
+`;
+
+const NavIconsImg = styled.img`
+  width: 20px;
+  height: 20px;
+`;
+
+const NavIconsLink = styled.a`
+  margin-left: 40px;
+  display: inline-block;
+  vertical-align: middle;
+`;
+
+const Purple = styled.span`
+  color: #844fff;
+`;
+const UnList = styled.ul`
+  list-style: none;
+  margin-top: 30px;
+  line-height: 30px;
+`;
 
 function App() {
   return (
     <div className="App">
-      <div class="nav">
-        <div class="contactMe">
-          <a href="mailto:antje.enzi@gmail.com?subject=Let's%20chat!&amp;body=Please%20reply%20with%20more%20info!">
-            <img src="chat logo.png" alt="chat logo" />
+      <Nav>
+        <ContactMe>
+          <ContactMeLink href="mailto:antje.enzi@gmail.com?subject=Let's%20chat!&amp;body=Please%20reply%20with%20more%20info!">
+            <ContactMeImg src="chat logo.png" alt="chat logo" />
             Contact Me
-          </a>
-        </div>
-        <div class="navIcons">
-          <a href="https://www.linkedin.com/in/antje-enzi-3b318a15/ttps://bit.ly/2tlevDW">
-            <img src="003-linkedin.png" alt="linkedin logo" />
-          </a>
-          <a href="https://twitter.com/Anjilo16">
-            <img src="002-twitter.png" alt="twitter logo" />
-          </a>
-          <a href="https://www.facebook.com/antje.lorenz.1291">
-            <img src="001-facebook.png" alt="facebook logo" />
-          </a>
-        </div>
-      </div>
-      <div class="landing">
-        <div class="landingWrapper">
+          </ContactMeLink>
+        </ContactMe>
+        <NavIcons>
+          <NavIconsLink href="https://www.linkedin.com/in/antje-enzi-3b318a15/ttps://bit.ly/2tlevDW">
+            <NavIconsImg src="003-linkedin.png" alt="linkedin logo" />
+          </NavIconsLink>
+          <NavIconsLink href="https://twitter.com/Anjilo16">
+            <NavIconsImg src="002-twitter.png" alt="twitter logo" />
+          </NavIconsLink>
+          <NavIconsLink href="https://www.facebook.com/antje.lorenz.1291">
+            <NavIconsImg src="001-facebook.png" alt="facebook logo" />
+          </NavIconsLink>
+        </NavIcons>
+      </Nav>
+      <Landing>
+        <LandingWrapper>
           <div class="langingL">
             <h1>Antje Enzi.</h1>
             <p>
               Hello, my name is Antje Enzi. I am an
               <br /> aspiring Web Developer &amp;{' '}
-              <span class="purple">Product Designer</span>.
+              <Purple>Product Designer</Purple>.
             </p>
-            <ul>
+            <UnList>
               <li>
                 <p>Website Development</p>
               </li>
@@ -43,23 +105,23 @@ function App() {
               <li>
                 <p>Design</p>
               </li>
-            </ul>
+            </UnList>
           </div>
-          <div class="langingR">
+          <div class="landingR">
             <img
               src="Antje_edited.jpg"
               alt="picture of Antje Enzi"
               width="300px"
             />
           </div>
-        </div>
+        </LandingWrapper>
         <img src="http://gdurl.com/kfDQ" alt="scroll down" class="scroll" />
-      </div>
+      </Landing>
 
       <div class="skills">
         <h2>Skills</h2>
         <p>
-          Over 48 hours of web development experience using
+          Over 10 days of web development experience using
           <br /> these technologies.{' '}
         </p>
         <div class="programs">
@@ -77,7 +139,7 @@ function App() {
           </a>
           <div class="underline"></div>
         </div>
-        <ul>
+        <UnList>
           <li>
             <a href="#">
               <img src="http://gdurl.com/ofjk" alt="dribble icon" />
@@ -93,7 +155,7 @@ function App() {
               <img src="http://gdurl.com/w3SZ" alt="youtube icon" />
             </a>
           </li>
-        </ul>
+        </UnList>
         <img src="http://gdurl.com/rUgY" alt="project image" class="workImg" />
       </div>
 
@@ -105,7 +167,7 @@ function App() {
           </a>
           <div class="underline"></div>
         </div>
-        <ul>
+        <UnList>
           <li>
             <a href="#">
               <img src="http://gdurl.com/ofjk" alt="dribble icon" />
@@ -121,12 +183,12 @@ function App() {
               <img src="http://gdurl.com/w3SZ" alt="youtube icon" />
             </a>
           </li>
-        </ul>
+        </UnList>
         <img src="http://gdurl.com/wcd1" alt="project image" class="workImg" />
       </div>
 
       <div class="footer">
-        <a href="https://github.com/lfields90">
+        <a href="https://github.com/antjeenzi">
           <h3 class="blue">More on Github</h3>
         </a>
         <div class="underlineSmall"></div>
